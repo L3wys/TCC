@@ -1,5 +1,5 @@
 
-import PagMod from './paginassaudezen/PagMod'
+import PagMod from './PageHome/PagMod'
 
 function App() {
 
