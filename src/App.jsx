@@ -1,4 +1,4 @@
-import './App.css'
+
 import PagMod from './paginassaudezen/PagMod'
 
 function App() {

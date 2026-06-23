@@ -1,3 +1,79 @@
-h1 {
-    color: pink
-}
+body {
+      margin: 0;
+      background-color: white;
+    }
+ 
+    .tes {
+      background-color: rgb(81, 187, 187);
+      width: auto;
+      height: 12%;
+      display: flex;
+ 
+      align-items: center;
+    }
+ 
+    .faixa {
+      width: 20%;
+      height: 10%;
+      background-color: rgb(173, 173, 173);
+      margin: 0;
+      justify-content: left;
+    }
+ 
+    .faixa1 {
+      width: 20%;
+      height: 10%;
+      background-color: rgb(173, 173, 173);
+      margin: 0;
+      justify-content: right;
+      margin-left: auto;
+    }
+ 
+    ul {
+      list-style-type: none;
+      text-align: center;
+      margin-left: -2%;
+    }
+ 
+    li a {
+      color: white;
+      text-shadow: 4px 4px 6px black;
+      text-decoration: none;
+      padding: 8px;
+    }
+ 
+    ul li {
+      display: inline;
+      padding: 10px;
+    }
+ 
+    img {
+      height: auto;
+      width: 4%;
+      margin-left: auto;
+    }
+ 
+    .lupa {
+      height: auto;
+      width: 4%;
+      margin-left: auto;
+    }
+ 
+    .con {
+      background-color: rgb(28, 28, 122);
+      height: auto;
+      width: 8%;
+      margin-left: 5%;
+      color: white;
+      clip-path: inset(0 round 15px)
+    }
+ 
+    button {
+      clip-path: inset(0 round 15px);
+    }
+ 
+    a {
+      color: white;
+      text-decoration-line: none;
+    }
+
