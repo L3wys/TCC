@@ -8,7 +8,7 @@ const PagMod = () => {
  
   <div className="tes">
     <div className="faixa"></div>
-    <img style={{ marginLeft: '-5px' }} src="imagem/image 5.png" />
+    <img style={{ marginLeft: '-5px' }} src="public/image/image 5.png" />
     <nav>
       <ul>
         <li><a href=""></a>MENU</li>
@@ -23,9 +23,7 @@ const PagMod = () => {
     <button style={{ backgroundColor: 'rgb(28, 28, 122)', width: '150px', marginLeft: '25px', marginRight: '-35px' }}
       className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
       aria-controls="offcanvasWithBothOptions"><a className="icon-link" href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" className="bi" viewBox="0 0 1 1" aria-hidden="true">
-          <img style={{ width: '20px', marginLeft: '-25px' }} src="/imagem/lupa 2.png"/>
-        </svg>
+          <img style={{ width: '20px', marginLeft: '-25px' }} src="/public/image/lupa 2.png"/>
         Pesquisar
       </a></button>
  
@@ -47,7 +45,7 @@ const PagMod = () => {
     <div className="faixa1"></div>
   </div><br />
   <center>
-  <img style={{ height: 'auto', width: '900px' }} src="/szLOGO.png"/>
+  <img style={{ height: 'auto', width: '900px' }} src="/public/image/szLOGO 7.png" />
   </center>
   <br />
   <div id="carouselExampleCaptions" className="carousel slide">
@@ -61,7 +59,7 @@ const PagMod = () => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="/imagem/416a9bcd-f814-4948-b910-1c37c6f16c74 5.jpeg" className="d-block w-100"
+        <img src="/public/image/416a9bcd-f814-4948-b910-1c37c6f16c74 5.jpeg" className="d-block w-100"
           style={{ height: '500px', objectFit: 'cover' }} alt=""/>
         <div className="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
@@ -69,14 +67,14 @@ const PagMod = () => {
         </div>
       </div>
       <div className="carousel-item">
-        <img src="/imagem/bebe-2 5.webp" className="d-block w-100" style={{ height: '500px', objectFit: 'cover' }} alt=""/>
+        <img src="/public/image/bebe-2 5.webp" className="d-block w-100" style={{ height: '500px', objectFit: 'cover' }} alt=""/>
         <div className="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div className="carousel-item">
-        <img src="/imagem/szLOGO 7.png" className="d-block w-100" style={{ height: '500px', objectFit: 'cover' }} alt="..."/>
+        <img src="/public/image/szLOGO 7.png" className="d-block w-100" style={{ height: '500px', objectFit: 'cover' }} alt="..."/>
         <div className="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Some representative placeholder content for the third slide.</p>
