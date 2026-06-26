@@ -1,4 +1,4 @@
-import './sobre.'
+
 
 const sobre = () => {
 

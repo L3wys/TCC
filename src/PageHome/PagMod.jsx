@@ -1,5 +1,6 @@
 import React from "react";
 import './pagmod.css'
+import sobre from './sobre.jsx'
 
 const PagMod = () => {
     return(
@@ -14,7 +15,8 @@ const PagMod = () => {
         <li><a href=""></a>MENU</li>
         <li><a href=""></a>DICAS DIÁRIAS</li>
         <li><a href=""></a>SAÚDE A-Z</li>
-        <li><a href=""></a>SOBRE</li>
+        <li><link rel="stylesheet" href="sobre.jsx"/>SOBRE</li>
+        
       </ul>
     </nav>
  

@@ -1,11 +1,17 @@
 
-import PagMod from './PageHome/PagMod'
+import PagMod from './PageHome/PagMod';
+import sobre from '/PageSobre/sobre'
 
 function App() {
 
   return (
     <>
-      <PagMod/>
+      <BrowserRouter>
+      <Routes>
+        <Route path="./PageHome/PagMod.jsx" element={<PagMod />} />
+        <Route path="./PageSobre/sobre" element={<Sobre />} />
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
