@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import './pagmod.css'
 
 
@@ -9,14 +10,13 @@ const PagMod = () => {
  
   <div className="tes">
     <div className="faixa"></div>
-    <img style={{ marginLeft: '-5px' }} src="public/image/image 5.png" />
+    <img style={{ marginLeft: '-5px' }} src="/image/image 5.png" />
     <nav>
       <ul>
-        <li><a href=""></a>MENU</li>
-        <li><a href=""></a>DICAS DIÁRIAS</li>
-        <li><a href=""></a>SAÚDE A-Z</li>
-        <li><link to="/sobre"/>SOBRE</li>
-        
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">DICAS DIÁRIAS</a></li>
+        <li><a href="#">SAÚDE A-Z</a></li>
+        <li><Link to="/sobre">SOBRE</Link></li>
       </ul>
     </nav>
  
