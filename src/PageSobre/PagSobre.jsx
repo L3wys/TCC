@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const PagSobre = () => {
 
@@ -12,7 +13,7 @@ return(
 
   <div className="tes">
     <div className="faixa"></div>
-    <a href="/PagMod"><img style={{ width: '37%', height: 'auto' }} src="/public/image/image 5.png"/></a>
+    <Link to="/PageHome/PagMod"><img style={{ width: '37%', height: 'auto' }} src="/public/image/image 5.png"/></Link>
     <nav>
       <ul>
         <li><a href=""></a>DICAS DIÁRIAS</li>
