@@ -16,7 +16,7 @@ const PagMod = () => {
         <li><a href="#">MENU</a></li>
         <li><a href="#">DICAS DIÁRIAS</a></li>
         <li><a href="#">SAÚDE A-Z</a></li>
-        <li><Link to="/sobre">SOBRE</Link></li>
+        <li><Link to="/PageSobre/PagSobre">SOBRE</Link></li>
       </ul>
     </nav>
  

@@ -4,6 +4,7 @@ import {
     Route
 } from "react-router-dom"
 import PagMod from "../PageHome/PagMod"
+import PagSobre from "../PageSobre/PagSobre"
 
 const AppRoutes = () =>{
     return(
@@ -14,12 +15,12 @@ const AppRoutes = () =>{
                     element={<PagMod />}
                 />
                 <Route
-                    path="/sobre"
-                    element={<h1>Sobre</h1>}
+                    path="/PageHome/PagMod"
+                    element={<PagMod />}
                 />
                 <Route
-                    path="*"
-                    element={<h1>404</h1>}
+                    path="/PageSobre/PagSobre"
+                    element={<PagSobre/>}
                 />
                     
                 
